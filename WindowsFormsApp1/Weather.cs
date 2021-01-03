@@ -58,8 +58,8 @@ namespace WindowsFormsApp1
             }
             return C;
         }
-        //public string Images(string Abbreviation) => "https://www.metaweather.com/static/img/weather/ico/"+Abbreviation+".ico";
-        public string Images(string Abbreviation) => $@"C:\Users\Erick\Downloads\Cursos-Proyectos\curso c#\WindowsFormsApp1\WindowsFormsApp1\Imagenes\{Abbreviation}.ico";
+        public string Images(string Abbreviation) => "https://www.metaweather.com/static/img/weather/ico/"+Abbreviation+".ico";
+        //public string Images(string Abbreviation) => $@"C:\Users\Erick\Downloads\Cursos-Proyectos\curso c#\WindowsFormsApp1\WindowsFormsApp1\Imagenes\{Abbreviation}.ico";
     }
     public class Country
     {     
